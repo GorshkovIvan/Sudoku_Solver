@@ -72,3 +72,19 @@ void display_board(const char board[9][9]) {
 }
 
 /* add your functions here */
+
+bool is_complete(const char board[9][9]){
+  for(int i = 0; i<9; i++){
+    for(int j = 0; j<9; j++){
+      if(board[i][j] == '.')
+	return false;
+    }
+  }
+  return true;
+}
+
+bool make_move(string position, char digit, char board[9][9]){
+  if(board[position[0]-64],position[1]] != '.')
+     return false;
+  return true;
+}
