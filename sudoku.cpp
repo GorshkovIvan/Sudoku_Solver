@@ -259,7 +259,7 @@ bool count_mistakes(char board[9][9], int &mistakes){
 /* Function measure_execution_time measures how long it takes
    for the algoritms to solve a puzzle. */
 
-void measure_execution_time(char board[9][9], const char* board_name){
+void measure_execution_time(char board[9][9], const char* board_name){              //takes board and its name as an input
  
   auto start = high_resolution_clock::now();                                        //start stores time before the solving function executes
   solve_board(board);
