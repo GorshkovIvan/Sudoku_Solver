@@ -1,1 +1,35 @@
 Summarise your findings here (see specification).
+Task 5.
+
+Sudoku board difficulty is usually determined by the number of
+techniques required to solve it. However, my sudoku solver uses trial
+and error backtracking algorithm. Therefore, the classic approach is
+not applicable and the results of analysis do not necesseraly
+represent how a human would determine the difficulty level.
+
+To determine how difficult it is for the algorithm to solve a puzzle,
+I applied two methodologies. At first, I have measured the total
+number of mistakes my algortim makes while trying to solve a puzzle.
+
+I got the following results:
+
+1) For mystery1: 421488 mistakes
+2) For mystery2: 11532 mistakes
+3) For mystery3: 14076 mistakes
+
+Secondly, I have measured the total amount of time it takes for the
+algorithm to get a solution.
+
+This method produced the following results:
+
+1) For mystery1: 163099 microseconds
+2) For mystery2: 4738 microseconds 
+3) For mystery3: 5193 microseconds
+
+Finally, mystery2 was found to be unsolvable.
+
+Based on the results above, mystery2 is impossible to solve, mystery3
+has a "hard" difficulty level and mystery3 has "extremely hard"
+difficulty.
+
+
