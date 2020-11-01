@@ -26,10 +26,13 @@ This method produced the following results:
 2) For mystery2: 4738 microseconds 
 3) For mystery3: 5193 microseconds
 
-Finally, mystery2 was found to be unsolvable.
+The execution time was different every time the program was run, but
+the difference was found to be negligible.
+
+Mystery2 was found to be unsolvable.
 
 Based on the results above, mystery2 is impossible to solve, mystery3
-has a "hard" difficulty level and mystery3 has "extremely hard"
+has a "hard" difficulty level and mystery1 has "extremely hard"
 difficulty.
 
 
